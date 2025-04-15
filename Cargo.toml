@@ -1,0 +1,14 @@
+[package]
+name = "mobius"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+opt-level = 3           # max runtime speed
+debug = false           # no debug symbols
+codegen-units = 1       # better cross-function optimization
+lto = true              # cross-crate/link-time optimization
+
+[dependencies]
+clap = { version = "4.5.36", features = ["derive"] }
+rayon = "1.10.0"
