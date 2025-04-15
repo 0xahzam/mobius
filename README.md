@@ -43,4 +43,4 @@ Time taken    : 79.49ms
 
 ## Visualization
 
-![Mobius Strip Animation](./media/loop.mp4)
+https://github.com/user-attachments/assets/674ccc3e-cd83-4629-8909-6c779cfd7855
